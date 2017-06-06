@@ -1,0 +1,58 @@
+#nav{
+  margin: 35px;
+  padding: 10px;
+  border: 25px solid white;
+  width: 1200px;
+  /*background-color: lightgrey;*/
+}
+
+.page{
+  border: 1px solid #665544;
+  background-color: #efefef;
+  padding: inherit;
+  padding: 15px;
+}
+
+li{
+  padding:5px;
+}
+
+table{
+  padding:10px;
+}
+
+
+textarea{
+  padding:25px;
+}
+
+.info{
+  padding: 5px;
+}
+
+p{ 
+font-size: 18px;
+
+ }
+
+.pic{
+  padding: 5px;
+  margin: 5px;
+}
+
+h2{
+  padding-bottom: 5px;
+}
+
+.wrapper{
+  margin: 35px;
+  padding: 25px;
+  border: 25px solid white;
+  width: 1200px;
+  background-color: lightgrey;
+  
+}
+
+.schools{
+  padding-top: 8px;
+}
