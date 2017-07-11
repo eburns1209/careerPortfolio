@@ -1,58 +1,180 @@
-#nav{
-  margin: 35px;
-  padding: 10px;
-  border: 25px solid white;
-  width: 1200px;
-  /*background-color: lightgrey;*/
-}
-
-.page{
-  border: 1px solid #665544;
-  background-color: #efefef;
-  padding: inherit;
-  padding: 15px;
-}
-
-li{
-  padding:5px;
-}
-
-table{
-  padding:10px;
-}
-
-
-textarea{
-  padding:25px;
-}
-
-.info{
-  padding: 5px;
-}
-
-p{ 
-font-size: 18px;
-
- }
-
-.pic{
-  padding: 5px;
-  margin: 5px;
-}
-
-h2{
-  padding-bottom: 5px;
-}
-
-.wrapper{
-  margin: 35px;
-  padding: 25px;
-  border: 25px solid white;
-  width: 1200px;
-  background-color: lightgrey;
+#wrapper{
+  background-color: #BFC9CA;
   
+  height: 276px;
 }
 
-.schools{
-  padding-top: 8px;
+.hero-container{
+    /*display: table-cell;*/
+   position: relative;
+    /*z-index: 10;*/
+    text-align: center;
+    /*vertical-align: middle;*/
 }
+
+img{
+  
+  
+  text-align: center;
+}
+
+.page-scroll, .cd-headline{
+  text-align: center;
+  color: black;
+  padding: 10px;
+
+}
+
+a.button-ghost{
+  border: 2px solid #3008f7;
+  margin: 6.0px;
+  padding: 5px;
+  font-size: 18px;
+  color: #000;
+  background-color:#BFC9CA;
+}
+
+.hire, .learn, span{
+  color: black;
+  font-size: 22px;
+}
+
+#me{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.intro, .statement{
+  padding-top: 8px;
+  font-size: 20px;
+}
+
+.statement{
+  padding-bottom: 8px;
+}
+
+#myLife{
+  /*background-color: #3008f7;*/
+  background-color: #BFC9CA;
+}
+h2{
+  font-family: luna;
+  font-size: 24px;
+}
+
+.touch{
+  text-align: center;
+  font-size: 24px;
+  padding-top: 15px;
+
+}
+.send{
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.submitBtn{
+  text-align: center;
+  color: black;
+  padding: 15px;
+
+}
+
+.email{
+  padding-top: 8px;
+  text-align: center;
+}
+
+
+.bio{
+  font-size: 20px;
+  /*color: #fff;*/
+}
+
+footer{
+  padding: 80px 0 50px;
+  background-color: #BFC9CA;
+  /*color: #fff;*/
+  text-align: center;
+}
+
+.col-md-12{
+  width: 100%;
+  margin-left: 0;
+}
+
+.title{
+  padding-bottom: 10px;
+  padding-top: 8px;
+  font-size: 18px;
+}
+
+.summary{
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.me{
+  font-size: 24px;
+  padding-bottom: 5px;
+  /*font-family: sans-serif;*/
+}
+
+
+
+@media screen and (max-width: 768px){
+      #masthead {
+            clear: both;
+            width: 100%;
+            left: 0;
+        }
+
+      body {
+  background-color: #3008f7;
+         }
+
+  nav {
+  float: none;
+  display: block;
+      }
+
+    .main-section {
+    width: 100%;
+    float: none;
+      }
+
+  .sidebar {
+  width: 100%;
+  float: none;
+  }
+
+}
+  
+
+@media screen and (max-width: 640px){
+    #masthead {
+            clear: both;
+            width: 100%;
+            left: 0;
+        }
+  body{
+    background-color: yellow;
+  }
+nav {
+  float: none;
+  display: block;
+}
+
+  .main-section {
+    width: 100%;
+    float: none;
+      }
+
+  .sidebar {
+  width: 100%;
+  float: none;
+  }
+
+}
+
+

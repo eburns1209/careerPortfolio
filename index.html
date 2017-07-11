@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home| Erin Stowe</title>
+    <title>Erin Stowe | Web Designer</title>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,61 +17,122 @@
 </head>
 
 <body>
-  
-      <div id="nav">
-            <nav class="navbar navbar-default" >
-                 
-                          <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html" title="Index button">Home</a></li>
-                            <li><a href="education.html" title="Education button">Education/Skills</a></li>
-                            <li><a href="resume.html" title="Resume button">Resume</a></li>
-                            <li><a href="contact.html" title="Contact button">Contact</a></li>
-                              
-                                                       
-                          </ul>
-                
-            </nav>
+<div id="wrapper">
+  <div id="fullscreen-hero" class="home-hero">
+    <div class="hero-container">
+      <a href="#" class="home-logo">
+        <img src="assets/images/logo.png" width="340" height="140">
+      </a>
+      <h1 class="cd-headline letters type">
+        <span>Hi, I'm Erin. I design websites</span>
+        <br>
+        <span class="cd-words-wrapper waiting">
+        </span>
+      </h1>
+
+      <div class="page-scroll">
+        <a href="#sub-footer" class="button button-ghost">Yes, I'm available for Hire</a>
       </div>
-<div class="wrapper">   
+      <div class="page-scroll learn-more">
+        <a href="#me" class="learn">Learn more about me and what I do</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--experience section-->
+<section id="me">
+  <div class="container">
+    <div class="row">
+      <div class="eight columns offset-by-two columns">
+        <p class="intro">My Expertise</p>
+        <p class="statement"></p>
+      </div>
       <div class="row">
-                
-          <div class="col-md-2">
-          <img src="assets/images/erin.jpg" class="pic" width="150" height="150">
+        <div class="col-md-4">
+          <div class="expertise-block">
+            <img src="assets/images/code.jpg" width="140" height="140">
+              <h4 class="title">Front End Development</h4>
+              <p class="summary">HTML, CSS, Javascript </p>
+              <a href="https://github.com/eburns1209" target="_blank" class="seeWork">See my code</a>
           </div>
-      
-          <div class="col-md-7"><p>Welcome, this web site was created for the purpose of showing future clients the design skills of Erin B Stowe. Here you will find some of her work and you will be able to see her talented mind. I hope that you have enjoy your visit and come back soon.</p>
-          
-          <br>
-            
-          <p>Hi, I am Erin B Stowe. I have a very unique backgroud. It starts with a Bachelor of Science Degree in Business, from Miami of Ohio. I worked at Bank One (now Chase Bank) for 3 years, during this time, I was obtaining knowledge about customer service transactions. Then I went back to school for teaching, which I obtained a certification in Business, Computers, Marketing, and Math Education. After a few years, I completed my Masters Degree in Educational Media and Technology. After my 11th year of teaching, I decided to stop and pursue my certification in Full Stack Web Development. </p>
-
+        </div>
+        <div class="col-md-4">
+          <div class="expertise-block">
+           <img src="assets/images/UX.png" width="140" height="140">
+              <h4 class="title">UX/UI</h4>
+              <p class="summary">I consider the structure of a website very important
+              and believe that simple, intuitive patterns are very important</p>
           </div>
-
-          <div class="col-md-3">
-            <section class="sidebar">
-              <h2>Connect with Me</h2>
-
-                <a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home" target="_blank" ><img src="assets/images/linkedin.png" class="social"alt="LinkedIn" width="20" height="20" ></a>
-
-                <a href="https://github.com/eburns1209" target="_blank"  ><img src="assets/images/github.png" class="social" alt="github" width="25" height="25"></a>
-
-                <a href="http://stackoverflow.com/users/7233544/erin-stowe" target="_blank" ><img src="assets/images/stackoverflow.png" class="social" alt="stackoverflow" width="30" height="30"></a>
-            </section>
+        </div>
+        <div class="col-md-4">
+          <div class="expertise-block">
+            <img src="assets/images/work.png" width="140" height="140">
+              <h4 class="title">Experience</h4>
+              <p class="summary">Working in schools, businesses, banks...</p>
+               <a href="assets/ErinStowe2017.doc.pdf" target="_blank" class="seeWork">See my resume</a>
           </div>
-    
-                
+        </div>
+    </div>
+  </div>
+</section>
 
+<!--About me-->
+<section id="myLife">
+  <div id="about">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+            <h1 class="me">About Me</h1>
+            <p class="bio">For the past few years
+            I have been teaching. I started out teaching business and computer classes. One of the classes I taught was Multimedia and Web development. Along with this and my passion for helping businesses succeed, I started the full stack web development program at UNCC. When I work on websites I like to think about the end result and making sure it is user friendly including responsive for consumers.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/images/erin.jpg" width="300" height="230">
+          </div>
       </div>
-              
-</div>              
+    </div>
+  </div>
+</section>
 
-             
-              
-                
-  
+<section id="sub-footer">
+  <div class="contact"> 
+    <div class="contactWrapper">
+      
+      <h2 class="touch">Get in Touch</h2>
+       <p class="email">If you have another inquiry or have a project you think I'd just die to do, send me a message:</p>
+       <br>
+       <br>
+       <div class="submitBtn">
+       <a href="mailto:eburns1209@gmail.com" class="button button-ghost">Email me
+        <!-- <a class="send" href="mailto:eburns1209@gmail.com">Email me
+          -->
+        </a>
+       </div>
+    </div>
+  </div>
+</section>
+   
  
-  
-               
+  <footer>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <a href="http://erinstowe." class="logo"><img src="assets/images/logo.png" width="340" height="140"></a>
+            <p class="made-by-me">Handmade by me 2017.</p>
+              <div class="social-links">
+                <a href="https://twitter.com/Runtrigirl" target="_blank"><img src="assets/images/twitter.png" class="social" alt="twitter" width="28" height="28"></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" ><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" width="28" height="28" >...</a>
+                <a href="https://github.com/eburns1209" target="_blank"  ><img src="assets/images/github.png" class="social" alt="github" width="28" height="28">..</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>               
 </body>
 
 </html>
