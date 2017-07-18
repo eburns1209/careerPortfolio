@@ -1,16 +1,24 @@
 #wrapper{
   background-color: #BFC9CA;
   
-  height: 276px;
+  height: 576px;
 }
 
-.hero-container{
-    /*display: table-cell;*/
-   position: relative;
-    /*z-index: 10;*/
-    text-align: center;
-    /*vertical-align: middle;*/
+#fullscreen-hero{
+  /*height: 100vh;
+  position: relative;*/
+  text-align: center;
+  /*width: 100%;*/
+
 }
+
+/*.hero-container{
+    display: table-cell;
+   position: relative;
+    z-index: 10;
+    text-align: center;
+    vertical-align: middle;
+}*/
 
 img{
   
@@ -32,6 +40,22 @@ a.button-ghost{
   font-size: 18px;
   color: #000;
   background-color:#BFC9CA;
+}
+
+a:hover{
+  color: #f9021b;
+}
+
+a:visited{
+  color: #027717;
+}
+
+/*a:link{
+  color:#FF0000;
+}*/
+
+a:active{
+  color:#0000FF;
 }
 
 .hire, .learn, span{
