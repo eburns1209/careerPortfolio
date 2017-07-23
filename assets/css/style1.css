@@ -4,6 +4,11 @@
   height: 576px;
 }
 
+#wrappers{
+  background-color: #BFC9CA;
+  height: 540px;
+}
+
 #fullscreen-hero{
   /*height: 100vh;
   position: relative;*/
