@@ -93,9 +93,10 @@ h2{
 
 .touch{
   text-align: center;
-  font-size: 24px;
-  padding-top: 15px;
-
+  font-size: 18px;
+  /*padding-top: 15px;*/
+  padding: 5px;
+  border: 2px;
 }
 .send{
   padding-bottom: 5px;
