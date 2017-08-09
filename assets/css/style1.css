@@ -6,7 +6,11 @@
 
 #wrappers{
   background-color: #BFC9CA;
-  height: 540px;
+  height: 370px;
+}
+
+.contactWrapper{
+  background-color: #BFC9CA;
 }
 
 #fullscreen-hero{
@@ -91,7 +95,7 @@ h2{
   font-size: 24px;
 }
 
-.touch{
+.touch, .logo{
   text-align: center;
   font-size: 18px;
   /*padding-top: 15px;*/
@@ -123,7 +127,7 @@ h2{
 
 footer{
   padding: 80px 0 50px;
-  background-color: #BFC9CA;
+  background-color: #3f48cc;
   /*color: #fff;*/
   text-align: center;
 }
@@ -150,6 +154,10 @@ footer{
   /*font-family: sans-serif;*/
 }
 
+.made-by-me{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 
 @media screen and (max-width: 768px){
