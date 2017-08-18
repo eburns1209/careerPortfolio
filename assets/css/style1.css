@@ -175,6 +175,15 @@ footer{
   padding-bottom: 5px;
   font-weight: bold;
 }
+
+.social-links{
+  padding: 5px;
+}
+
+.social{
+  padding: 2px;
+}
+
 @media screen and (max-width: 1024px){
   .bio{
     font-size: 16px;
