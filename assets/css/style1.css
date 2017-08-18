@@ -6,7 +6,7 @@
 
 #wrappers{
   background-color: #047ace;
-  height: 370px;
+  height: 330px;
 }
 
 .contactWrapper{
@@ -14,15 +14,12 @@
 }
 
 #fullscreen-hero{
-  /*height: 100vh;
-  position: relative;*/
-  text-align: center;
-  /*width: 100%;*/
+   text-align: center;
+  padding: 25px;
 
 }
 
 img{
-  
   
   text-align: center;
 }
@@ -30,7 +27,7 @@ img{
 .page-scroll, .cd-headline{
   text-align: center;
   color: black;
-  padding: 10px;
+  padding: 25px;
 
 }
 
@@ -85,6 +82,7 @@ a:active{
 #myLife{
   /*background-color: #3008f7;*/
   background-color: #047ace;
+  padding-top: 15px;
 }
 h2{
   font-family: luna;
