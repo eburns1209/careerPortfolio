@@ -45,12 +45,15 @@ a:hover{
 }
 
 a:visited{
-  color: #027717;
+  color: #f9a70b;
+  font-weight: bold;
 }
 
 a:active{
   color:#0000FF;
 }
+
+
 
 .hire, .learn, span{
   color: black;
