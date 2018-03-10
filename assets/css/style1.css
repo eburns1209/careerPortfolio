@@ -1,11 +1,11 @@
 #wrapper{
-  background-color: #047ace;
+  background-color: /*#047ace*/#24a1fb;
   
   height: 576px;
 }
 
 #wrappers{
-  background-color: #047ace;
+  background-color: /*#047ace*/#24a1fb;
   height: 330px;
 }
 
@@ -85,7 +85,7 @@ a:active{
 
 #myLife{
   /*background-color: #3008f7;*/
-  background-color: #047ace;
+  background-color: /*#047ace*/#24a1fb;
   padding-top: 15px;
 }
 h2{
@@ -125,7 +125,7 @@ h2{
 
 footer{
   padding: 80px 0 50px;
-  background-color:#047ace;
+  background-color:/*#047ace*/#24a1fb;
   /*color: #fff;*/
   text-align: center;
 }
